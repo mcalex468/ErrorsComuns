@@ -12,6 +12,8 @@ const items = ref([
 function shuffleItems() {
   items.value = shuffle(items.value)
 }
+
+watch(text,(newText,oldText) => console.log(oldText,newText))
 </script>
 
 <template>
