@@ -9,4 +9,5 @@ const randomNum = () => numbers.value.push(Math.random())
 </script>
 <template>
   <button @click="randomNum">Add Random Number</button>
+  <button @click="randomNum">Add Random Numberr</button>
 </template>
