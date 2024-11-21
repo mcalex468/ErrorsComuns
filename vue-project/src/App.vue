@@ -10,6 +10,7 @@ import WatchArrayExample from './components/WatchArrayExample.vue';
 
   <main>
   <KeyForSample/>
+  <WatchArrayExample/>
   </main>
 </template>
 
