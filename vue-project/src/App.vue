@@ -1,8 +1,10 @@
 <script setup>
+import AboutComponent from './components/AboutComponent.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import KeyForSample from './components/KeyForSample.vue';
 import TheWelcome from './components/TheWelcome.vue'
 import WatchArrayExample from './components/WatchArrayExample.vue';
+import ViewAbout from './views/ViewAbout.vue';
 </script>
 
 <template>
@@ -11,6 +13,7 @@ import WatchArrayExample from './components/WatchArrayExample.vue';
   <main>
   <KeyForSample/>
   <WatchArrayExample/>
+  <AboutComponent/>
   </main>
 </template>
 
