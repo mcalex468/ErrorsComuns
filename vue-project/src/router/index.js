@@ -16,6 +16,12 @@ const router = createRouter({
       name: 'about',
       component: About,
     },
+    {
+      path: '/desti/:id',
+      name:'desti',
+      component:()=>import('../components/Desti.vue')
+    },
+
   ],
 });
 

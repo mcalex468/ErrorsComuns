@@ -1,9 +1,11 @@
 <script setup>
 import AboutComponent from './components/AboutComponent.vue';
+import Desti from './components/Desti.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import KeyForSample from './components/KeyForSample.vue';
 import NameSurname from './components/NameSurname.vue';
 import PrecioProducto from './components/PrecioProducto.vue';
+import RouterApp from './components/RouterApp.vue';
 import TheWelcome from './components/TheWelcome.vue'
 import WatchArrayExample from './components/WatchArrayExample.vue';
 import ViewAbout from './views/ViewAbout.vue';
@@ -18,6 +20,8 @@ import ViewAbout from './views/ViewAbout.vue';
   <AboutComponent/>
   <NameSurname/>
   <PrecioProducto/>
+  <RouterApp/>
+  <Desti/>
   </main>
 </template>
 
